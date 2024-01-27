@@ -12,6 +12,7 @@
     display: flex;
     /* justify-content:center ; */
     align-items: center;
+    justify-content: space-evenly;
 }
 
 .nav-logo {
@@ -38,12 +39,12 @@
 
 /* block 2 bar search icon  */
 
-.nav-address{
+.nav-address {
     align-items: center;
 
 }
 
-.add-icon{
+.add-icon {
     color: white;
     display: flex;
     align-items: center;
@@ -68,11 +69,162 @@
 
 /* searh bar  */
 
-.nav-search{
+.nav-search {
     display: flex;
+    justify-content: space-evenly;
     align-items: center;
+    width: 620px;
+    height: 40px;
+    border-radius: 3px;
+    /* background-color: aqua; */
 }
 
-.nav-search-icon{
+.nav-search:hover{
+    border: 3px solid #febd68;;
+}
+
+.search-select {
+    /* margin-left: 5px; */
+    background-color: #f3f3f3;
+    height: 40px;
+    width: 50px;
+    text-align: center;
+    /* align-content: center; */
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: none;
+    /* border-radius: 5px; */
+}
+
+.search-input {
+    height: 40px;
+    width: 100%;
+    border: none;
+    font-size: 1rem;
+}
+
+.search-icon {
+    color: #0F1111;
+    height: 40px;
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 45px;
+    font-size: 1.2rem;
+    background-color: #febd68;
+    /* margin-left: 7px; */
+}
+
+/* box 4  */
+
+/* 
+.region{
+     background-color: yellow; 
+    height: 30px;
+    color: #f3f3f3;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+
+.flag-icon{
+    display: flex;
+    align-items: flex-end;
+    background-image: url("/utils/flag-icon.svg") center center no-repeat;
+    height: 21px;
+    width: 16px;
+}
+ */
+
+
+.region {
+    /* background-color: yellow; */
+    height: 30px;
+    color: #f3f3f3;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.flag-icon {
+    display: flex;
+    align-items: flex-end;
+    /* Updated alignment to center */
+    background-image: url("/utils/flag-icon.svg") center center no-repeat;
+    height: 30px;
+    /* Adjusted height to match the parent container */
+    width: 20px;
+    /* Adjusted width for better spacing */
+
+}
+
+.lang {
+    margin-top: 5px;
+    padding-bottom: 0%;
+    display: flex;
+    /* margin-right: 5px; */
+    align-items: flex-end;
+    /* Optional margin for spacing between elements */
+}
+
+.down-icon {
+    display: flex;
+    align-items: flex-end;
+    margin-left: 4px;
+    /* Align the down icon with the center */
+}
+
+/* Adjust the font size and color of the down icon as needed */
+.down-icon i {
+    font-size: 12px;
+    color: #f3f3f3;
+}
+
+
+
+/* box 5 de */
+.nav-login {
+    display: flex;
+    font-weight: bold;
+}
+
+.nav-login-text span {
+    color: #f3f3f3;
+    font-size: 0.7rem;
+}
+
+.nav-second {
+
+    color: white;
+    font-size: 0.85rem;
+}
+
+.nav-return {
+    font-weight: bold;
+    font-size: 0.7rem;
     color: white;
 }
+
+.nav-return>span {
+    color: white;
+    font-size: 0.85rem;
+}
+
+.nav-cart{
+    /* display: flex; */
+    color: white;
+    font-size: 0.85;
+    font-weight: bold;
+    
+}
+
+.nav-cart i{
+    font-size: 30px;
+    
+
+}
+
