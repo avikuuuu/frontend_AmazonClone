@@ -79,8 +79,9 @@
     /* background-color: aqua; */
 }
 
-.nav-search:hover{
-    border: 3px solid #febd68;;
+.nav-search:hover {
+    border: 3px solid #febd68;
+    ;
 }
 
 .search-select {
@@ -214,17 +215,63 @@
     font-size: 0.85rem;
 }
 
-.nav-cart{
+.nav-cart {
     /* display: flex; */
     color: white;
     font-size: 0.85;
     font-weight: bold;
-    
+
 }
 
-.nav-cart i{
+.nav-cart i {
     font-size: 30px;
-    
 
 }
 
+/* ######################################## */
+
+.panel {
+    align-items: center;
+    display: flex;
+    background-color: #222f3d;
+    height: 40px;
+}
+
+.panel-all>i {
+    margin-right: 7px;
+}
+
+.panel-all {
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+
+    display: flex;
+}
+
+.otheroption {
+    display: flex;
+    width: 70%;
+    font-size: 0.85rem;
+}
+
+.otheroption p {
+    /* font-size: 14px; */
+    display: inline;
+    margin-right: 15px;
+    color:white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+.last-panel {
+    font-size: 0.95rem;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-right: 10px; /* Adjust margin as needed */
+    text-align: right;
+    color: white; /* Set the text color */
+  }
+  
