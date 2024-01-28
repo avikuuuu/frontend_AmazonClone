@@ -270,8 +270,36 @@
     display: flex;
     align-items: center;
     justify-content: end;
-    margin-right: 10px; /* Adjust margin as needed */
+    margin-right: 10px; 
     text-align: right;
-    color: white; /* Set the text color */
+    color: white; 
   }
+
+  .hero-section{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+    background-image: url(/utils/hero_image.jpg);
+    height: 400px;
+    background-size: cover;
+  }
+
+  .hero-msg{
+    margin-bottom: 20px;
+    color: black;
+    background-color: white;
+    font-size: 0.85rem;
+    width: 85%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+  .hero-msg a{
+    color: #007185;
+  }
+
   
