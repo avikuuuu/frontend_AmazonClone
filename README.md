@@ -9,6 +9,7 @@ This project is a simple frontend implementation of an Amazon clone using HTML a
 - [Hero Section](#hero-section)
 - [Shop Section](#shop-section)
 - [Footer](#footer)
+- [Usage](#usage)
 
 ## Structure
 
@@ -58,3 +59,7 @@ The footer provides a link to go back to the top of the page.
 ## Usage
 
 Open the `index.html` file in a web browser to view the Amazon clone frontend. Adjustments and enhancements can be made in the HTML and CSS files to further customize the clone.
+
+## Deployment
+
+The Amazon Clone Frontend is deployed and accessible through the following link: [Amazon Clone Frontend](https://frontend-amazon-clone.vercel.app/)
